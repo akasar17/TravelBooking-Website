@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akasarthak7</title>
+
+<script src="https://kit.fontawesome.com/d5c3e39057.js" crossorigin="anonymous">
+</script>
+<style>
+    .navBar-whit{
+        background: #fff;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 7%;
+    }
+    .logo{
+        
+            
+            cursor: pointer;
+    }
+
+    .nav-links li{
+        list-style: none;
+        display: inline-block;
+        margin: 10px 30px;
+        }
+    .nav-links li a{
+        text-decoration: none;
+        color: #000;
+        
+    } 
+    
+    
+    .register-btn{
+        background: #ff5361;
+        color: #fff;
+       
+        padding: 8px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        font: size 14px;;
+        }
+        .footer{
+            margin: 80px 0 10px;
+            text-align: center;
+        }
+        .footer a{
+            text-decoration: none;
+            color: #999;
+            font-size: 22px;
+            margin: 0 10px;
+        }
+        .footer hr{
+            background: #999;
+            height: 1px;
+            width: 100%;
+            border: 0;
+            margin: 20px 0;
+        }
+        .footer p{
+            padding-bottom: 15px;
+        }
+</style>
+</head>
+<body>
+    <nav id="navBar"class="navbar-white">
+        <img src="C:/Users/Legion/Desktop/log.png" class="logo" height="100" width="180">
+        <ul class="nav-links">
+        <li><a href="#" class="active">Popular Places</a></li>
+        <li><a href="#">Travel Outside</a></li>
+        <li><a href="#">Popular Places</a></li>
+        </ul>
+        <a href="#" class="register-btn">register now</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+        </nav>
+
+        <div class="container">
+            <div class="footer">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                <hr>
+                <p>Copyright @ 2023 </p>
+                 
+            </div>
+
+        </div>
+        
+        <script>
+            var navBar = document.getElementById("navBar");
+            function togglebtn(){
+                navBar.classList.toggle("hidemenu");
+            }
+            
+        </script>
+        
+        
+        
+</body>
+</html>
